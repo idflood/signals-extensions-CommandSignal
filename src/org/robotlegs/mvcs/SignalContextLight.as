@@ -13,14 +13,12 @@ package org.robotlegs.mvcs
 	
 	public class SignalContextLight extends ContextBase implements ISignalContext
 	{
-		/**
-		 * @private
-		 */
 		protected var _signalCommandMap:ISignalCommandMap;
 		
-		public function SignalContextLight()
+		public function SignalContextLight(autoStartup:Boolean = true)
 		{
-			startup();
+			if(autoStartup)
+				startup();
 		}
 		
 		protected function startup():void

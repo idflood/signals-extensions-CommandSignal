@@ -17,12 +17,19 @@ package org.robotlegs.mvcs
 		
 		public function SignalContextLite(autoStartup:Boolean = true)
 		{
+			mapInjections();
 			if(autoStartup)
 				startup();
 		}
 		
 		protected function startup():void
 		{
+			
+		}
+		
+		protected function mapInjections():void
+		{
+			injector.mapValue( IReflector, reflector );
 			injector.mapValue( ISignalCommandMap, signalCommandMap );
 			injector.mapValue( IInjector, injector );
 		}

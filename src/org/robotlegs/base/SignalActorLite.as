@@ -1,4 +1,4 @@
-package org.robotlegs.mvcs
+package org.robotlegs.base
 {
 	import org.robotlegs.core.ISignalCommandMap;
 

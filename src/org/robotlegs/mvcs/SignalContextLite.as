@@ -3,7 +3,7 @@ package org.robotlegs.mvcs
 	import org.robotlegs.base.ContextBase;
 	import org.robotlegs.base.SignalCommandMap;
 	import org.robotlegs.core.IInjector;
-	import org.robotlegs.core.IMediatorMap;
+	import org.robotlegs.core.IReflector;
 	import org.robotlegs.core.ISignalCommandMap;
 	import org.robotlegs.core.ISignalContext;
 	

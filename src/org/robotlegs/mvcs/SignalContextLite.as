@@ -1,10 +1,6 @@
 package org.robotlegs.mvcs
 {
-	import flash.events.EventDispatcher;
-	import flash.events.IEventDispatcher;
-	
 	import org.robotlegs.base.ContextBase;
-	import org.robotlegs.base.MediatorMap;
 	import org.robotlegs.base.SignalCommandMap;
 	import org.robotlegs.core.IInjector;
 	import org.robotlegs.core.IMediatorMap;

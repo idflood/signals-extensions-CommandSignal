@@ -13,7 +13,7 @@ package org.robotlegs.mvcs
 		[Inject]
 		public var injector:IInjector;
 		
-		public function Command()
+		public function SignalCommandLite()
 		{
 		}
 		
